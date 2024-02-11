@@ -5,10 +5,10 @@
     <title>ArcGIS Maps SDK for JavaScript Tutorials: Display a map</title>
 
     <style>
-      #map {
-            width: 100%;
-            height: 300px;
-        }
+      #viewDiv {
+        width: 100%;
+        height: 300px;
+      }
     </style>
 
     <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
@@ -27,7 +27,7 @@
           map: map,
           center: [-118.805, 34.027], // Longitude, latitude
           zoom: 13, // Zoom level
-          container: "viewDiv" // Div element
+          container: "viewDiv" // Corrected the container ID
         });
 
       });
