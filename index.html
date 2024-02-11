@@ -20,14 +20,14 @@
         esriConfig.apiKey = "AAPK433f41466d60440d91c1c31affdeed39q333BLHYUdTBT9x5jyyBb6p5XkRkl5eFjmdjMaBT3iK9RqETfIR9HgYcNRdNPvtL";
 
         const map = new Map({
-          basemap: "arcgis/topographic" // basemap styles service
+          basemap: "topo" // Corrected basemap name
         });
 
         const view = new MapView({
           map: map,
           center: [-118.805, 34.027], // Longitude, latitude
           zoom: 13, // Zoom level
-          container: "viewDiv" // Corrected the container ID
+          container: "viewDiv"
         });
 
       });
